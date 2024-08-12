@@ -445,10 +445,8 @@ function renderOfficialCopyright(conf) {
     ${conf.additionalCopyrightHolders
       ? html` ${[conf.additionalCopyrightHolders]} &amp; `
       : ""}
-    <a href="https://www.w3.org/">World Wide Web Consortium</a>.
-    <abbr title="World Wide Web Consortium">W3C</abbr><sup>&reg;</sup>
-    <a href="https://www.w3.org/policies/#Legal_Disclaimer">liability</a>,
-    <a href="https://www.w3.org/policies/#W3C_Trademarks">trademark</a
-    >${linkLicense(conf.licenseInfo)}
+    <a href="https://www.omg.org/">Object Management Group, Inc</a>.
+    <abbr title="Object Management Group">OMG</abbr><sup>&reg;</sup>
+    ${linkLicense(conf.licenseInfo)}
   </p>`;
 }
