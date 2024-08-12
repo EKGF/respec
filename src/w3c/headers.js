@@ -257,6 +257,14 @@ export const licenses = new Map([
     },
   ],
   [
+    "mit",
+    {
+      name: "MIT License",
+      short: "MIT license",
+      url: "https://opensource.org/license/mit",
+    },
+  ],
+  [
     undefined,
     {
       name: "unlicensed",
